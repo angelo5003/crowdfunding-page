@@ -1,0 +1,28 @@
+.nav-inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-nav-logo {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 375px) {
+  .mobile-menu-btn {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    margin: 0;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .mobile-menu-btn {
+    display: none;
+  }
+}
