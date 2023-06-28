@@ -1,0 +1,20 @@
+.background-img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 376px) {
+  .product-background {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .product-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+}

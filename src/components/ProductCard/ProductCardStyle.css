@@ -1,0 +1,23 @@
+.product-card-container {
+  text-align: center;
+  height: 11.25rem;
+}
+
+.product-title {
+  font-size: 1.4em;
+  width: 18.75rem;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.product-info {
+  margin: 8px;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

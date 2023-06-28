@@ -1,0 +1,15 @@
+.home-page-container {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+  position: absolute;
+  top: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 350px;
+}
