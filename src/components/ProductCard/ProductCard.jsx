@@ -1,5 +1,6 @@
 import "./ProductCardStyle.css";
 import BrandLogo from "../../assets/images/logo-mastercraft.svg";
+import BookMark from "../../assets/images/icon-bookmark.svg";
 
 const ProductCard = () => {
   return (
@@ -13,8 +14,10 @@ const ProductCard = () => {
           A beautiful & handcrafted monitor stand to reduce neck and eye strain.
         </p>
         <div className="button-container">
-          <button>Back this project</button>
-          <button>Bookmark</button>
+          <button className="green-btn">Back this project</button>
+          <button className="bookmark-btn">
+            <img src={BookMark} alt="bookmark-image" />
+          </button>
         </div>
       </article>
     </>

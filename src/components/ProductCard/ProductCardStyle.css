@@ -1,3 +1,8 @@
+.brand-logo-container {
+  position: relative;
+  bottom: 1.8rem;
+}
+
 .product-card-container {
   text-align: center;
   height: 11.25rem;
@@ -8,16 +13,44 @@
   width: 18.75rem;
   margin: 0 auto;
   font-weight: 700;
+  color: hsl(0, 0%, 0%);
 }
 
 .product-info {
   margin: 8px;
   font-size: 0.8em;
   font-weight: 400;
+  color: hsl(0, 0%, 48%);
 }
 
 .button-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.green-btn {
+  border: none;
+  padding: 1rem;
+  margin: 0;
+  background: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  background-color: hsl(176, 50%, 47%);
+  border-radius: 6rem;
+  width: 11.2rem;
+  text-align: center;
+}
+
+.bookmark-btn {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
 }
