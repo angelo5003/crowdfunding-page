@@ -1,14 +1,18 @@
+import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
-import HeroSection from "./components/HeroSection/HeroSection";
+
 import NavBar from "./components/NavBar/NavBar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <Router>
       <NavBar />
-      <HeroSection />
-      <Home />
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
 }
 

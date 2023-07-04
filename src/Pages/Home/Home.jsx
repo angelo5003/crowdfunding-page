@@ -1,11 +1,15 @@
 import "./HomeStyle.css";
+import HeroSection from "../../components/HeroSection/HeroSection";
 import ProductCard from "../../components/ProductCard/ProductCard";
 
 const Home = () => {
   return (
-    <div className="home-page-container">
-      <ProductCard />
-    </div>
+    <>
+      <HeroSection />
+      <div className="home-page-container">
+        <ProductCard />
+      </div>
+    </>
   );
 };
 
