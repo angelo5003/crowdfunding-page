@@ -1,0 +1,41 @@
+.backercards-outer-container {
+  padding: 1rem;
+}
+
+.backercards-info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 13.7rem;
+  margin: 0 auto;
+  border: 2px solid red;
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+}
+
+.product-name {
+  margin: 0;
+}
+
+.product-pledge {
+  margin-top: 0;
+  color: hsl(176, 50%, 47%);
+  font-size: 0.9em;
+}
+
+.backercard-product-description {
+  font-size: 0.9em;
+}
+
+.backercard-product-btn {
+  width: 9.3rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8em;
+  background-color: hsl(176, 72%, 28%);
+}

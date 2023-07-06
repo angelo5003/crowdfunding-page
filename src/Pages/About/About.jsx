@@ -1,4 +1,5 @@
 import BackerCards from "../../components/BackerCards/BackerCards";
+import data from "../../data/data.json";
 import "./AboutStyle.css";
 
 const About = () => {
@@ -8,7 +9,6 @@ const About = () => {
         <h2 className="about-title">About this project</h2>
         <div className="about-info-container">
           <p className="about-info">
-            {" "}
             The Mastercraft Bamboo Monitor Riser is a sturdy and stylish
             platform that elevates your screen to a more comfortable viewing
             height. Placing your monitor at eye level has the potential to
@@ -22,7 +22,10 @@ const About = () => {
           </p>
         </div>
       </article>
-      <BackerCards />
+      {data &&
+        data.map((info) => {
+          return <BackerCards key={info.id} info={info} infoDataArray={data} />;
+        })}
     </>
   );
 };

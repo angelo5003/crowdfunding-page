@@ -1,15 +1,9 @@
 [
   {
-    "id": 1,
-    "priceBackers": 89.914,
-    "backers": 5007,
-    "daysLeft": 56
-  },
-  {
     "id": 2,
     "productTitle": "Bamboo Stand",
     "pledge": "Pledge $25 or more",
-    "productDescription": "You get an ergonomic stand made of natural bamboo.\n You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list",
+    "productDescription": "You get an ergonomic stand made of natural bamboo.\n You've helped us launch our promotional campaign, and you’ll be added to a special Backer member list.",
     "productsLeft": 101,
     "productButton": "Select Reward"
   },
