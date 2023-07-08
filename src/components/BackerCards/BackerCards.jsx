@@ -6,9 +6,16 @@ import {
 
 const BackerCards = ({ info, infoDataArray }) => {
   console.log(`infoData:`, infoDataArray);
+
   return (
     <div className="backercards-outer-container">
-      <article className="backercards-info-container">
+      <article
+        className={`${
+          info.id === 4
+            ? "backercards-out-of-stock"
+            : "backercards-info-container"
+        }`}
+      >
         <div className="backercards-title-container">
           <h4 className="product-name">{info.productTitle}</h4>
           <p className="product-pledge">{info.pledge}</p>
@@ -20,7 +27,9 @@ const BackerCards = ({ info, infoDataArray }) => {
         <p className="backercard-product-description">
           {info.productsLeft} left
         </p>
-        <button className="backercard-product-btn">{info.productButton}</button>
+        <button className="backercard-product-btn" disabled>
+          {info.productButton}
+        </button>
       </article>
     </div>
   );

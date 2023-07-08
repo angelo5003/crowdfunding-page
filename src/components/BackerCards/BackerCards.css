@@ -39,3 +39,25 @@
   font-size: 0.8em;
   background-color: hsl(176, 72%, 28%);
 }
+
+.backercards-out-of-stock {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 13.7rem;
+  margin: 0 auto;
+  border: 2px solid red;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+/**The.backercards-out-of-stock .backercard-product-btn selector targets the button element with the backercard-product-btn class that is within an element with the backercards-out-of-stock class 
+ * 
+ * disabled:
+ * To ensure that the :disabled pseudo-class works correctly, make sure that the button element has the disabled attribute applied to it. Without the disabled attribute, the :disabled pseudo-class will not have any effect.
+*/
+
+.backercards-out-of-stock .backercard-product-btn:disabled {
+  background: #dddddd;
+  cursor: not-allowed;
+}
